@@ -3,10 +3,10 @@ from typing import List, Tuple
 
 #import numpy as np
 
-def bad_func_no_colon()
+def bad_func_no_colon();
     pass
     
-class tickletoe:
+class tickletoe///:
     pass
 
 class TicTacToe:
