@@ -247,7 +247,7 @@ class TicTacToe:
         if self.board[next_point[0], next_point[1]] != self.last_played_by:
             return current_path
 
-        return self._find_path(current_path[0], edge, current_path)
+        return self._find_path(current_path[0]*2, edge, current_path)
 
     # pylint: disable=inconsistent-return-statements
 
@@ -257,4 +257,4 @@ class TicTacToe:
         new_point = [np.nan] * 2
         new_point[0] = point[0] + edge[0]
         new_point[1] = point[1] + edge[1]
-        return new_point
+        return new_point2
