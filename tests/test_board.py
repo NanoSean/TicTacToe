@@ -3,7 +3,7 @@
 import pytest
 
 import numpy as np
-from .src.board import TicTacToe
+from ..src.board import TicTacToe
 
 
 @pytest.mark.parametrize("board_size", list(range(-1, 2)))
