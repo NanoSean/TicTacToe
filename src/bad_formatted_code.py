@@ -3,11 +3,11 @@ from typing import List, Tuple
 
 #import numpy as np
 
-def bad_func_no_colon();
-    pass
-    
-class tickletoe///aaaa:
-    pass
+# def bad_func_no_colon();
+#     pass
+#
+# class tickletoe///aaaa:
+#     pass
 
 class TicTacToe:
     """The representation of the board and the state."""

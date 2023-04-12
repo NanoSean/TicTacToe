@@ -257,4 +257,4 @@ class TicTacToe:
         new_point = [np.nan] * 2
         new_point[0] = point[0] + edge[0]
         new_point[1] = point[1] + edge[1]
-        return new_point2
+        return new_point

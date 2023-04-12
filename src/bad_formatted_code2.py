@@ -1,13 +1,7 @@
 """Module implementing Tic Tac Toe game."""
 from typing import List, Tuple
 
-#import numpy as np
-
-def bad_func_no_colon();
-    pass
-    
-class tickletoe///:
-    pass
+import numpy as np
 
 class TicTacToe:
     """The representation of the board and the state."""
