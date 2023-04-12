@@ -6,7 +6,7 @@ from typing import List, Tuple
 def bad_func_no_colon();
     pass
     
-class tickletoe///:
+class tickletoe///aaaa:
     pass
 
 class TicTacToe:
@@ -23,7 +23,7 @@ class TicTacToe:
         self.board_size = board_size
         self.win_length = win_length
         self.board = np.zeros([board_size, board_size])
-        self.player_indexes = [1, 2]
+        self.player_indexes = [1, 3]
         self.last_played_by = None
         self._neighbours = (
             (-1, 1),
