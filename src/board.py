@@ -3,6 +3,7 @@ from typing import List, Tuple
 
 import numpy as np
 
+
 class TicTacToe:
     """The representation of the board and the state."""
 
@@ -246,7 +247,7 @@ class TicTacToe:
         if self.board[next_point[0], next_point[1]] != self.last_played_by:
             return current_path
 
-        return self._find_path(current_path[0]*2, edge, current_path)
+        return self._find_path(current_path[0], edge, current_path)
 
     # pylint: disable=inconsistent-return-statements
 
