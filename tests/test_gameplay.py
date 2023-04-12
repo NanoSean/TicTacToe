@@ -1,7 +1,7 @@
 """Module for testing Games of TicTacToe"""
 import pytest
 
-from ..src.board import TicTacToe
+from TicTacToe.src.board import TicTacToe
 
 
 @pytest.mark.parametrize(
