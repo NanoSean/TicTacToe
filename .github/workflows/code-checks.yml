@@ -37,7 +37,7 @@ jobs:
       #----------------------------------------------
       - name: linting-package
         run: |
-          poetry run pylint interview
+          poetry run pylint src
           poetry run black . --check
           poetry run isort .
           poetry run pylint tests
